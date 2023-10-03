@@ -1,2 +1,2 @@
 # landing
-I developed page landing website using HTML,CSS and JS
+I developed page landing website using HTML,CSS and JS.
