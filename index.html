@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Eco-Friendly Home Products</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to GreenHouse Essentials</h1>
+        <p>Your source for eco-friendly home products</p>
+        <a href="#products" class="cta-button">Shop Now</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to GreenHouse Essentials, where we are passionate about making eco-friendly living accessible and convenient for everyone. Our journey began with a simple yet profound belief that every small step towards sustainability can have a big impact on our planet.</p>
+        <p>At GreenHouse Essentials, we are committed to providing you with a wide range of high-quality, eco-friendly home products that align with your values and help you create a more sustainable lifestyle. We understand that the choices we make as consumers can shape the world we live in, and that's why we carefully curate products that are not only good for your home but also for the environment.</p>
+        <p>Our products are thoughtfully designed and sourced to minimize their environmental footprint. From non-toxic cleaning supplies that keep your home safe and healthy to sustainable kitchenware that reduces plastic waste, we have something for everyone looking to make a positive change.</p>
+        <p>Join us in our mission to promote sustainability, reduce waste, and protect our planet for future generations. We believe that together, we can make a significant impact and create a more eco-friendly world for all.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Eco-Clean All-Purpose Cleaner</h3>
+            <p>"Our all-purpose cleaner is formulated with natural ingredients and is free from harmful chemicals. It's tough on dirt and gentle on the environment."</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Bamboo Kitchenware Set</h3>
+            <p>"Upgrade your kitchen with our sustainable bamboo kitchenware. It's eco-friendly, durable, and adds a touch of natural beauty to your home."</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <h3>Reusable Cloth Shopping Bags</h3>
+            <p> "Our reusable cloth shopping bags are designed to help reduce single-use plastic waste. Made from durable, organic cotton, these bags are perfect for grocery shopping, reducing your carbon footprint with every use."</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="product">
+            <img src="product4.jpg" alt="Product 4">
+            <h3>Solar-Powered LED Garden Lights</h3>
+            <p>"Transform your outdoor space with our solar-powered LED garden lights. These eco-friendly lights harness solar energy during the day and automatically illuminate your garden at night, creating a beautiful and sustainable ambiance."</p>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="process_form.php" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Apply fonts to your styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+        }
+        /* Add font styles for other elements as needed */
+    </style>
+
+
+    <div id="notification"></div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 GreenHouse Essentials</p>
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+</html>
